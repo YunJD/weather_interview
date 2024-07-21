@@ -33,8 +33,8 @@ function App() {
   return (
     <>
       <CssBaseline />
-      <Stack sx={{ minHeight: "100vh" }}>
-        <Stack sx={{ mt: 4, gap: 3, mx: "auto", width: 1280 }}>
+      <Stack sx={{ minHeight: "100vh" }} spacing={4}>
+        <Stack sx={{ mt: 4, gap: 3, mx: "auto", width: 1280 }} spacing={3}>
           <Typography variant="h2" sx={{ mb: 2 }}>
             Weather forecast
           </Typography>
