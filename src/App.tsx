@@ -1,5 +1,4 @@
 import { useState } from "react";
-import CssBaseline from "@mui/material/CssBaseline";
 import { capitalizeFirst } from "./utils/string";
 import { CITIES } from "./weather/constants";
 import { City } from "./weather/types";
@@ -32,9 +31,8 @@ function App() {
 
   return (
     <>
-      <CssBaseline />
-      <Stack sx={{ minHeight: "100vh" }}>
-        <Stack sx={{ my: 4, mx: "auto", width: 1280 }} spacing={3}>
+      <Stack sx={{ minHeight: "100vh", minWidth: 1280 }}>
+        <Stack sx={{ my: 4, mx: "auto", width: 1280, px: 2 }} spacing={3}>
           <Typography variant="h2" sx={{ mb: 2 }}>
             Weather forecast
           </Typography>

@@ -14,7 +14,7 @@ Node version: 20.10
 
 # Simplifications
 
-- Environment variables not setup for e.g. AppID
-- Material UI Themes not setup, certain palette variables hardcoded
+- Environment variables not setup, static webserver (Github pages)
+- Material UI Themes not setup, certain colors passed directly
 - Did not setup pages or routing
 - The loading skeletons don't perfectly match
