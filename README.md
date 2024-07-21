@@ -8,7 +8,7 @@ Node version: 20.10
 
 `npm install`
 
-# Dev:
+# Dev
 
 `npm run dev`
 
